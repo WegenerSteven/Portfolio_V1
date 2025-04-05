@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shikhule Benard | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/2ed08f388e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="sample.css" />
+    <!-- AOS Animation Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#" id="navbarBrand">Benard</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          title="Toggle navigation menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-experience">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <!-- Profile Picture Section -->
+        <div class="profile-section">
+          <img
+            src="images/profile.jpg"
+            class="profile-pic"
+            data-aos="zoom-in"
+            alt="Profile picture"
+          />
+        </div>
+
+        <!-- Hero Content Section -->
+        <div class="hero-content">
+          <h1>Hey, I'm <span class="highlight">Shikhule Benard</span></h1>
+          <h2 class="typing">A Passionate Developer</h2>
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5" data-aos="fade-up">
+      <div class="container text-center">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate Software Engineer skilled in web development, System
+          Design, and cloud computing.
+        </p>
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-4">
+            <h4>Web Development</h4>
+            <p>Building responsive web applications.</p>
+          </div>
+          <div class="col-md-4">
+            <h4>AI & Machine Learning</h4>
+            <p>Exploring deep learning models.</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Cloud Computing</h4>
+            <p>Deploying scalable cloud applications through Azure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Experience Section -->
+    <section id="skills-experience" class="py-5" data-aos="fade-up">
+      <div class="container">
+        <h2 class="text-center mb-4">Skills & Experience</h2>
+        <div class="row align-items-center">
+          <!-- Experience Column -->
+          <div class="col-md-6" data-aos="fade-up">
+            <h3 class="text-center">Experience</h3>
+            <div class="card shadow-sm mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Software Developer Attachee</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Huduma Kenya</h6>
+                <p class="card-text">
+                  Worked on web applications and improved service delivery
+                  remotely.
+                </p>
+              </div>
+            </div>
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Mentor - Web Dev Track</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Computer Society of Kirinyaga (CSK)
+                </h6>
+                <p class="card-text">
+                  Mentoring junior developers in HTML, CSS, JavaScript, and
+                  React.js.
+                </p>
+              </div>
+            </div>
+            <div class="card shadow-sm mt-3">
+              <div class="card-body">
+                <h5 class="card-title">Mentor - Web Dev Track</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Computer Society of Kirinyaga (CSK)
+                </h6>
+                <p class="card-text">
+                  Mentoring junior developers in HTML, CSS, JavaScript, and
+                  React.js.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills Column -->
+          <div class="col-md-6" data-aos="fade-left">
+            <h3 class="text-center">Skills</h3>
+            <div class="skill mb-3">
+              <p><i class="fa-brands fa-html5 text-danger"></i> HTML & CSS</p>
+              <div class="progress">
+                <div class="progress-bar bg-primary" style="width: 89%">
+                  89%
+                </div>
+              </div>
+            </div>
+            <div class="skill mb-3">
+              <p><i class="fa-brands fa-js text-warning"></i> JavaScript</p>
+              <div class="progress">
+                <div class="progress-bar bg-success" style="width: 60%">
+                  60%
+                </div>
+              </div>
+            </div>
+            <div class="skill mb-3">
+              <p>
+                <i class="fa-brands fa-node-js text-success"></i> Node.js
+                (Express.js)
+              </p>
+              <div class="progress">
+                <div class="progress-bar bg-dark" style="width: 80%">80%</div>
+              </div>
+            </div>
+            <div class="skill mb-3">
+              <p><i class="fa-brands fa-react text-info"></i> React.js</p>
+              <div class="progress">
+                <div class="progress-bar bg-warning" style="width: 49%">
+                  49%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5" data-aos="fade-up">
+      <div class="container text-center" data-aos="fade-up">
+        <h2>My Work</h2>
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-right">
+            <div class="card">
+              <img
+                src="images/home-logo.png"
+                class="card-img-top"
+                alt="Project 1"
+                style="width: 100%; height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">RentIn Prototype</h5>
+                <p class="card-text">
+                  A prototype for a rental application that connects landlords
+                  and tenants.
+                  <br />
+                </p>
+                <a
+                  href="https://imanihostels.netlify.app/"
+                  class="btn btn-primary"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/WegenerSteven/RentIn-Prototype.git"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-outline-dark"
+                  ><i class="fa-brands fa-github"></i> GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/b.jpg"
+                class="card-img-top"
+                alt="Project 2"
+                style="width: 100%; height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h4 class="card-title">UNESCO club Kyu</h4>
+                <p class="card-text">
+                  A simple website for a campus club to enhance communications,
+                  advertisment and coordination with the club.
+                </p>
+                <a href="#" class="btn btn-primary">Live Demo</a>
+                <a
+                  href="https://github.com/WegenerSteven/Unesco.git"
+                  target="_blank"
+                  class="btn btn-outline-dark"
+                  ><i class="fa-brands fa-github"></i> GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-left">
+            <div class="card">
+              <img
+                src="images/1.jpg"
+                class="card-img-top"
+                alt="Project 3"
+                style="width: 100%; height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h4 class="card-title">AI Chatbot</h4>
+                <p class="card-text">
+                  A smart AI chatbot for customer support.
+                </p>
+                <a href="#" class="btn btn-primary">Live Demo</a>
+                <a
+                  href="https://github.com/yourgithubrepo"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-outline-dark"
+                  ><i class="fa-brands fa-github"></i> GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5" data-aos="fade-up">
+      <div class="container">
+        <h2 class="text-center mb-4">Testimonials</h2>
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial text-center">
+                <p>
+                  "Benard is an outstanding developer! His ability to solve
+                  problems is top-notch!"
+                </p>
+                <h5>- Antony Gatitu, Tech Lead</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial text-center">
+                <p>
+                  "His mentorship in web development has been invaluable. A
+                  great team player!"
+                </p>
+                <h5>- Keren Irungu, CSK Member</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial text-center">
+                <p>
+                  "As for me the mentorship program has benefited me a lot . It
+                  has helped me build a strong foundation in programming.<br />
+                  Thank you guys"
+                </p>
+                <h5>- Abel Kihara, CSK Member</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+            title="Previous testimonial"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+            title="Next testimonial"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5" data-aos="fade-up">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <div class="row">
+          <!-- Contact Info & Social Media -->
+          <div class="col-md-6" data-aos="fade-right">
+            <h4 class="sub-title">Also Reach out through</h4>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>
+              <a href="mailto:wegenersteve580@gmail.com"
+                >wegenersteve580@gmail.com</a
+              >
+            </p>
+            <p>
+              <i class="fa-solid fa-paper-plane "></i>
+              <a href="mailto:shikhulebenard200@gmail.com"
+                >shikhulebenard200@gmail.com</a
+              >
+            </p>
+            <p>
+              <i class="fa-solid fa-square-phone"></i>
+              <a href="tel:+0114957666">0114957666</a>
+            </p>
+            <p>
+              <i class="fa-solid fa-square-phone"></i>
+              <a href="tel:+254720879979">0720879979</a>
+            </p>
+
+            <!-- Social Media Links -->
+            <div class="social-icons mt-3" data-aos="zoom-in">
+              <a
+                href="https://www.facebook.com/profile.php?id=100085545582083"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://github.com/WegenerSteven" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://twitter.com/wegsteve001" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/wegener1601/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/benard-shikhule-3055192a6/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+
+            <!-- CV & Resume Download -->
+            <a
+              href="images/BENARD SHIKHULE _CV.pdf"
+              download
+              class="btn btn-primary mt-3"
+              >Download CV</a
+            >
+            <a
+              href="images/Benard shikhule- resume update.pdf"
+              download
+              class="btn btn-outline-primary mt-3"
+              >Download Resume</a
+            >
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-md-6" data-aos="fade-left">
+            <h2>Send a Message</h2>
+            <form action="https://formspree.io/f/xovekvpq" method="POST">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  placeholder="Your Message"
+                  name="message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-primary text-white" data-aos="fade-up">
+      <p>&copy; 2025 Shikhule Benard | All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
